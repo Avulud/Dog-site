@@ -1,0 +1,37 @@
+body {
+	font-size: 18px;  
+	background: #000000;
+	font-family: 'Lato' , Arial, Halvetica, sans-serif;
+}
+
+.jumbotron{
+	margin-bottom: 0px;
+	background-color: #ffffff;
+}
+
+#stadium{
+
+}
+
+section.parallax {
+	height: 270px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.parallax-1 {
+	background-image: url('./img/bg4.jpg');
+}
+.parallax-2 {
+	background-image: url('./img/bg2.jpg');
+}
+.parallax-3 {
+	background-image: url('./img/bg1.jpg');
+}
+.parallax-4 {
+	background-image: url('./img/bg3.jpg');
+}
+.parallax-5 {
+	background-image: url('./img/bg5.jpg');
+}
