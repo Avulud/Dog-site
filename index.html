@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Liverpool FC</title>
+
+    <!-- Bootstrap -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700&amp;
+    subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script>
+   $(document).ready(function() {
+    $('p.animated').hover(
+     function() {
+      $(this).addClass('pulse');
+     },
+     function() {
+      $(this).removeClass('pulse'); 
+     }
+    )})
+  </script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="logo">
+            <img src="img\logo.jpg" class="animated slideInDown" alt="">
+          </div>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#mainpage" class='btn btn-'><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+            <li><a href="#news" class='btn btn-'><span class="glyphicon glyphicon-list"></span> NEWS</a></li>
+            <li><a href="#team" class='btn btn-'><span class="glyphicon glyphicon-user"></span> TEAM</a></li>
+            <li><a href="#match" class='btn btn-'><span class="glyphicon glyphicon-calendar"></span> MATCH</a></li>
+            <li><a href="#stadium" class='btn btn-'><span class="glyphicon glyphicon-tower"></span> STADIUM</a></li>
+            <li><a href="#tickets" class='btn btn-'><span class="glyphicon glyphicon-file"></span> TICKETS</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <div class="dropdown">
+             <button class="btn btn-default dropdown-toggle btn-lg" type="button" data-toggle="dropdown">Sign Up<span class="caret"></span></button>
+              <ul class="dropdown-menu">
+               <li><a href="#register"><span class="glyphicon glyphicon-user"></span> Log in</a></li>
+               <li><a href="#register"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
+              </ul>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="mainpage" class="jumbotron">
+      <div class="container">
+        <h1 class="animated fadeInLeft">Liverpool</h1>
+        <p class="animated">
+        Liverpool Football Club is a professional football club in Liverpool, England, which competes in the Premier League, the top tier of English football. The club has won 5 European Cups, 3 UEFA Cups, 3 UEFA Super Cups, 18 League titles, 7 FA Cups, 8 League Cups, and 15 FA Community Shields.
+
+Founded in 1892, the club joined the Football League the following year and has played at Anfield since its formation. Liverpool established itself as a major force in English and European football in the 1970s and 1980s when Bill Shankly and Bob Paisley led the club to 11 League titles and seven European trophies. Under the management of Rafa Benítez and captained by Steven Gerrard, Liverpool became European champions for the fifth time in 2005.
+
+Liverpool was the ninth highest-earning football club in the world in 2016–17, with an annual revenue of €424.2 million,and the world's eighth most valuable football club in 2017, valued at $1.492 billion. The club has long-standing rivalries with Manchester United and Everton.
+        </p>
+      </div>
+    </section>
+
+    <section class="parallax parallax-4">
+    </section>
+    
+    <header>
+      <div class="container-fluid">
+        <div id="carouselID" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselID" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselID" data-slide-to="1"></li>
+            <li data-target="#carouselID" data-slide-to="2"></li>
+            <li data-target="#carouselID" data-slide-to="3"></li>
+            <li data-target="#carouselID" data-slide-to="4"></li>
+            <li data-target="#carouselID" data-slide-to="5"></li>
+            <li data-target="#carouselID" data-slide-to="6"></li>
+            <li data-target="#carouselID" data-slide-to="7"></li>
+            <li data-target="#carouselID" data-slide-to="8"></li>
+          </ol>
+
+          <div id="news" class="carousel-inner" role="listbox">
+           <div class="item active">
+            <img src="img/livwsb.jpg" alt="...">
+            <div class="carousel-caption">
+              <h1>Match report:</h1> 
+              Reds out of FA Cup with West Brom defeat.Liverpool are eliminated from the FA Cup at the fourth-round stage as they're beaten 3-2 by West Bromwich Albion at Anfield.
+             </div>
+           </div>
+           <div class="item">
+            <img src="img/ings1.jpg" alt="...">
+            <div class="carousel-caption">
+              <h1>Jürgen Klopp: Danny is in really good shape</h1>
+              Ings has been a regular fixture in the Reds’ matchday squad over the last six weeks and made his third Premier League appearance of the season as a substitute at Swansea City last Monday.Klopp was asked whether the 25-year-old could start this weekend’s fourth-round tie at Anfield during his pre-match press conference on Friday.But while he refused to divulge any specific information about his XI for the meeting with the Baggies, the manager had words of praise for Ings.“He’s in really good shape, to be honest, but nothing to say in the moment about the line-up. We had problems last week and during the week, we had a few players ill, not too serious,” Klopp said
+             </div>
+           </div>
+           <div class="item">
+            <img src="img/img2.jpg" alt="...">
+            <div class="carousel-caption">
+              <h1>The kick-off times of all four of Liverpool's Premier League fixtures in March have been changed for television coverage.</h1>
+              The Anfield meeting with Newcastle United on Saturday March 3 will now get under way at 5.30pm and be broadcast by BT Sport.Jürgen Klopp’s side travel to Old Trafford to face Manchester United on Saturday March 10 and the game has been scheduled for a 12.30pm start. Sky Sports will show the match live.The visit of Watford remains on Saturday March 17 – subject to FA Cup participation – but kick-off is now 5.30pm and BT Sport will televise the clash.And, finally, the Reds’ trip to Crystal Palace on Saturday March 31 has been moved to a 12.30pm start and Sky Sports have the rights to broadcast the game, which is subject to further change dependent on Champions League fixtures.
+             </div>
+           </div>
+           <div class="item">
+            <img src="img/karius1.jpg" alt="...">
+            <div class="carousel-caption">
+              <h1>Karius: I have to show my worth - for now and the long-term</h1>
+              After continuing his role between the posts in the cup competitions for the Anfield victory over Everton, the German was selected again when Manchester City visited in the Premier League last weekend.On the day, the manager confirmed that the position is the 24-year-old’s to retain, stating: “Usually I could say it’s a decision for today but if Loris now is able to perform, he will stay in the goal.” Karius was naturally encouraged by those words, of course, but is conscious of the need to repay Klopp’s faith in him with a series of consistent displays. “Now you are back in goal you have to prove yourself and show how good you are to stay No.1 in the long-term, not just for the moment, to prove maybe I’m the long-term No.1 that can be in goal here for Liverpool for years to come,” he told Liverpoolfc.com. “But that’s far ahead. So, for right now I just want to help the team in the remaining four months of the season to reach our goals and do well.”
+            </div>
+           </div>
+           <div class="item">
+            <img src="img/lovren1.jpg" alt="...">
+            <div class="carousel-caption">
+              <h1>Lovren: Being Liverpool captain was an honour</h1>
+              Dejan Lovren gave an emotional description of the experience of captaining Liverpool in Sunday's thriller with Manchester City – one he 'will never forget'.The centre-back was handed the armband by Jürgen Klopp for a game that delivered on the pre-match expectations as the Reds claimed a sensational 4-3 win over the previously unbeaten Premier League leaders.It was an honour Lovren was delighted to accept on a day that will be remembered fondly for years to come. “It was a dream come true,” he told Liverpoolfc.com.“It was something I will never forget in my life. Maybe only once I will wear it but that’s enough. It’s a great honour to represent a club like Liverpool.”
+            </div>
+           </div>
+           <div class="item">
+            <img src="img/livmc.jpg" alt="...">
+            <div class="carousel-caption">
+              <h1>Liverpool 4-3 Manchester City</h1>
+              A ridiculous game ends with the Reds, just about, taking all three points and halting the visitors' unbeaten Premier League run. Oxlade-Chamberlain, Firmino, Mane and Salah got the goals to ultimately down a determined City. One of the very best matches you'll see.
+            </div>
+           </div>
+           <div class="item">
+            <img src="img/salah1.jpg" alt="...">
+            <div class="carousel-caption">
+              <h1>Salah on Man City: This is the kind of game I love</h1>
+              Mohamed Salah insists he can't wait to take on unbeaten Manchester City on Sunday, declaring the heavyweight fixture 'the kind of game I love'.The Reds are out to inflict a first Premier League defeat of the season upon the runaway leaders when they come to Anfield this weekend.But Salah has no fears over facing the division's top team; instead, he is excited for him and his teammates to prove what they can do.He told Liverpoolfc.com: "It's the kind of game I love and for the fans it's something different."Us and Man City are both playing great football, so it will be a perfect game and I'm very excited."I'm sure we can have a good result. They play fantastic football but, for me, I just think about my team. "We will see on Sunday."Liverpool have avoided defeat in their 16 outings at Anfield so far this season, winning 10 and drawing six of those fixtures.And Salah believes the Reds' passionate home support can inspire another big performance against Pep Guardiola's side."I love to play here in Anfield, playing at home with a fantastic atmosphere," he added."We try to play each away game like [it's at] home - the most important thing is to win the game - but at home we feel more confidence with the support from the fans."It makes it like [we have] 12 players."
+            </div>
+           </div>
+           <div class="item">
+            <img src="img/coutinho.jpg" alt="...">
+            <div class="carousel-caption">
+              <h1>Coutinho transfer to Barcelona</h1>
+              Liverpool have confirmed that Philippe Coutinho is joining Barcelona in deal worth up to £142million.Barcelona confirmed via their website that Coutinho will sign a five-and-a-half-year contract at the Camp Nou, with a buyout clause of €400m (£355m).Press Association Sport reports that the fee consists of an initial €120m (£106.5m), with a further €40m (£35.5m) hinging on add-ons involved in the signing.That would be a considerable increase on the £118m which the Catalan club offered and had rejected in August when they made their third unsuccessful bid of the summer.
+            </div>
+           </div>
+           <div class="item">
+            <img src="img/vandijk.jpg" alt="...">
+            <div class="carousel-caption">
+              <h1>Virgil van Dijk transfer:</h1>
+              Liverpool have announced that they have won the race to sign Southampton star Virgil van Dijk. The Merseyside giants were forced to issue an official apology after an illegal approach for Van Dijk in the summer, but have been determined to wrap up a deal for the defender ahead of the January transfer window.
+              Liverpool have agreed a world-record fee of £75million for the Netherlands international after holding discreet negotiations this week. A club statement reads: ‘Liverpool Football Club can confirm they have reached an agreement with Southampton for the transfer of Virgil van Dijk. The Reds have agreed a deal with the south coast club, and the player himself, that will see the 26-year-old defender move to Anfield when the transfer window re-opens on January 1, 2018. The Netherlands international will be assigned squad number four, upon his arrival at Liverpool.
+            </div>
+           </div>
+         </div>
+          <a class="left carousel-control" href="#carouselID" role="button" data-slide="prev">
+           <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carouselID" role="button" data-slide="next">
+           <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+<section id="team" class="jumbotron">
+  <div class="container">
+    <h1 class="animated fadeInRight">Team</h1>
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="item">
+        <div class="container-fluid">
+        <div id="goalkeeper" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators" class="animated fadeInLeft">
+            <li data-target="#goalkeeper" data-slide-to="0" class="active"></li>
+            <li data-target="#goalkeeper" data-slide-to="1"></li>
+            <li data-target="#goalkeeper" data-slide-to="2"></li>
+            <li data-target="#goalkeeper" data-slide-to="3"></li>
+          </ol>
+
+          <div id="slide" class="carousel-inner" role="listbox">
+           <div class="item active">
+            <img src="img/karius.jpg" alt="">
+            <div class="carousel-caption">Loris Karius №1</div>
+           </div>
+           <div class="item">
+            <img src="img/mignolet.jpg" alt="">
+            <div class="carousel-caption">Simon Mignolet №22</div>
+           </div>
+           <div class="item">
+            <img src="img/bogdan.jpg" alt="">
+            <div class="carousel-caption">Adam Bogdan №34</div>
+           </div>
+           <div class="item">
+            <img src="img/ward.jpg" alt="">
+            <div class="carousel-caption">Danny Ward №52</div>
+           </div>
+          </div>
+          
+          <a class="left carousel-control" href="#goalkeeper" role="button" data-slide="prev">
+           <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+
+          <a class="right carousel-control" href="#goalkeeper" role="button" data-slide="next">
+           <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        
+        </div>
+      </div>
+    </div>
+    <center><div class="text">GOALKEEPERS</div></center>
+   </div>
+
+             
+ <div class="col-sm-3">
+   <div class="item">
+    <div class="container-fluid">
+     <div id="defender" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#defender" data-slide-to="0" class="active"></li>
+            <li data-target="#defender" data-slide-to="1"></li>
+            <li data-target="#defender" data-slide-to="2"></li>
+            <li data-target="#defender" data-slide-to="3"></li>
+            <li data-target="#defender" data-slide-to="4"></li>
+            <li data-target="#defender" data-slide-to="5"></li>
+            <li data-target="#defender" data-slide-to="6"></li>
+            <li data-target="#defender" data-slide-to="7"></li>
+            <li data-target="#defender" data-slide-to="8"></li>
+            <li data-target="#defender" data-slide-to="9"></li>
+          </ol>
+
+          <div id="slide" class="carousel-inner" role="listbox">
+           <div class="item active">
+            <img src="img/clyne.jpg" alt="...">
+            <div class="carousel-caption">Nathaniel Clyne №2</div>
+           </div>
+           <div class="item">
+            <img src="img/vandejk.jpg" alt="...">
+            <div class="carousel-caption">Virgil van Dijk №4</div>
+           </div>
+           <div class="item">
+            <img src="img/lovren.jpg" alt="...">
+            <div class="carousel-caption">Dejan Lovren №6</div>
+           </div>
+           <div class="item">
+            <img src="img/gomez.jpg" alt="...">
+            <div class="carousel-caption">Joe Gomez №12</div>
+           </div>
+           <div class="item">
+            <img src="img/klavan.jpg" alt="...">
+            <div class="carousel-caption">Ragnar Klavan №17</div>
+           </div>
+           <div class="item">
+            <img src="img/moreno.jpg" alt="...">
+            <div class="carousel-caption">Alberto Moreno №18</div>
+           </div>
+           <div class="item">
+            <img src="img/robertson.jpg" alt="...">
+            <div class="carousel-caption">Andy Robertson №26</div>
+           </div>
+           <div class="item">
+            <img src="img/matip.jpg" alt="...">
+            <div class="carousel-caption">Joel Matip №32</div>
+           </div>
+           <div class="item">
+            <img src="img/flanagan.jpg" alt="...">
+            <div class="carousel-caption">Jon Flanagan №38</div>
+           </div>
+           <div class="item">
+            <img src="img/alexander-arnold.jpg" alt="...">
+            <div class="carousel-caption">Trent Alexander-Arnold №66</div>
+           </div>
+          </div>
+          
+          <a class="left carousel-control" href="#defender" role="button" data-slide="prev">
+           <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+
+          <a class="right carousel-control" href="#defender" role="button" data-slide="next">
+           <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <center><div class="text">DEFENDERS</div></center>
+  </div>
+          
+ <div class="col-sm-3">
+   <div class="item">
+    <div class="container-fluid">
+     <div id="midfielder" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#midfielder" data-slide-to="0" class="active"></li>
+            <li data-target="#midfielder" data-slide-to="1"></li>
+            <li data-target="#midfielder" data-slide-to="2"></li>
+            <li data-target="#midfielder" data-slide-to="3"></li>
+            <li data-target="#midfielder" data-slide-to="4"></li>
+            <li data-target="#midfielder" data-slide-to="5"></li>
+            <li data-target="#midfielder" data-slide-to="6"></li>
+          </ol>
+
+          <div id="slide" class="carousel-inner" role="listbox">
+           <div class="item active">
+            <img src="img/wijnaldum.jpg" alt="...">
+            <div class="carousel-caption">Geoginio Wijnaldim №5</div>
+           </div>
+           <div class="item">
+            <img src="img/milner.jpg" alt="...">
+            <div class="carousel-caption">James Milner №7</div>
+           </div>
+           <div class="item">
+            <img src="img/henderson.jpg" alt="...">
+            <div class="carousel-caption">Jordan Henderson №14</div>
+           </div>
+           <div class="item">
+            <img src="img/lallana.jpg" alt="...">
+            <div class="carousel-caption">Adam Lallana №20</div>
+           </div>
+           <div class="item">
+            <img src="img/chamberlain.jpg" alt="...">
+            <div class="carousel-caption">Alex Oxled-Chamberlain №21</div>
+           </div>
+           <div class="item">
+            <img src="img/can.jpg" alt="...">
+            <div class="carousel-caption">Emre Can №23</div>
+           </div>
+           <div class="item">
+            <img src="img/markovic.jpg" alt="...">
+            <div class="carousel-caption">Lazar Markovic №50</div>
+           </div>
+          </div>
+          
+          <a class="left carousel-control" href="#midfielder" role="button" data-slide="prev">
+           <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+
+          <a class="right carousel-control" href="#midfielder" role="button" data-slide="next">
+           <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+   <center><div class="text">MIDFIELDERS</div></center>
+  </div>
+  
+
+  <div class="col-sm-3">
+   <div class="item">
+    <div class="container-fluid">
+     <div id="forward" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#forward" data-slide-to="0" class="active"></li>
+            <li data-target="#forward" data-slide-to="1"></li>
+            <li data-target="#forward" data-slide-to="2"></li>
+            <li data-target="#forward" data-slide-to="3"></li>
+            <li data-target="#forward" data-slide-to="4"></li>
+            <li data-target="#forward" data-slide-to="5"></li>
+            <li data-target="#forward" data-slide-to="6"></li>
+          </ol>
+
+          <div id="slide" class="carousel-inner" role="listbox">
+           <div class="item active">
+            <img src="img/firmino.jpg" alt="...">
+            <div class="carousel-caption">Roberto Firmino №9</div>
+           </div>
+           <div class="item">
+            <img src="img/salah.jpg" alt="...">
+            <div class="carousel-caption">Mohamed Salah №11</div>
+           </div>
+           <div class="item">
+            <img src="img/sturridge.jpg" alt="...">
+            <div class="carousel-caption">Daniel Sturridge №15</div>
+           </div>
+           <div class="item">
+            <img src="img/mane.jpg" alt="...">
+            <div class="carousel-caption">Sadio Mane №19</div>
+           </div>
+           <div class="item">
+            <img src="img/ings.jpg" alt="...">
+            <div class="carousel-caption">Danny Ings №28</div>
+           </div>
+           <div class="item">
+            <img src="img/solanke.jpg" alt="...">
+            <div class="carousel-caption">Dominik Solanke №29</div>
+           </div>
+           <div class="item">
+            <img src="img/woodburn.jpg" alt="...">
+            <div class="carousel-caption">Ben Woodburn №58</div>
+           </div>
+          </div>
+          
+          <a class="left carousel-control" href="#forward" role="button" data-slide="prev">
+           <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+
+          <a class="right carousel-control" href="#forward" role="button" data-slide="next">
+           <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <center><div class="text">FORWARDS</div></center>
+  </div>
+
+  </div>
+ </div>
+</section>
+
+<section class="parallax parallax-1">
+      
+      
+</section>
+
+<section id="match" class="jumbotron">
+  <div class="container">
+  <h1>Fixtures and results</h1>
+             <div class="col-sm-6">
+               <div class="item">
+                 <center><div class="text">Last matches</div></center>
+               </div>
+             </div>
+             <div class="col-sm-6">
+               <div class="item">
+                 <center><div class="text">Upcoming matches</div></center>
+               </div>
+             </div>
+
+  <div class="container">
+          <div class="row">
+             
+             <div class="col-sm-6">
+               <div class="item">
+                         <div class="table-responsive">
+                  <table class="table table-bordered table-striped" >
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Home/Away</th>
+        <th>Stadium</th>
+        <th>Match</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+        <td>Sat 27.01.2018 19:45</td>
+        <td>H</td>
+        <td>Anfield</td>
+        <td>Liverpool-West Brom</td>
+        <td>2-3</td>
+      </tr>
+      <tr>
+        <td>Tue 30.01.2018 20:00</td>
+        <td>A</td>
+        <td>Kirklees Stadium</td>
+        <td>Huddersfield-Liverpool</td>
+        <td>0-3</td>
+      </tr>
+      <tr>
+        <td>Sun 4.02.2018 16:30</td>
+        <td>H</td>
+        <td>Anfield</td>
+        <td>Liverpool-Tottenham</td>
+        <td>2-2</td>
+      </tr>
+      <tr>
+        <td>Sun 11.02.2018 16:30</td>
+        <td>A</td>
+        <td>St Mary's Stadium</td>
+        <td>Southampton-Liverpool</td>
+        <td>0-2</td>
+      </tr>
+      <tr>
+        <td>Wed 14.02.2018 19:45</td>
+        <td>A</td>
+        <td>Estadio do Dragao</td>
+        <td>Porto FC-Liverpool</td>
+        <td>0-5</td>
+      </tr>
+    </tbody>
+  </table>
+                </div>
+               </div>
+             </div>
+             
+             <div class="col-sm-6">
+               <div class="item">
+                               <div class="table-responsive">
+                  <table class="table table-bordered table-striped" >
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Home/Away</th>
+        <th>Stadium</th>
+        <th>Match</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sat  24.02.2018  15:00</td>
+        <td>H</td>
+        <td>Anfield</td>
+        <td>Liverpool-West Ham</td>
+        <td>:-:</td>
+      </tr>
+      <tr>
+        <td>Sat  3.03.2018  17:30</td>
+        <td>H</td>
+        <td>Anfield</td>
+        <td>Liverpool-Newcastle</td>
+        <td>:-:</td>
+      </tr>
+      <tr>
+        <td>Tue  6.03.2018  19:45</td>
+        <td>H</td>
+        <td>Anfield</td>
+        <td>Liverpool-Porto FC</td>
+        <td>:-:</td>
+      </tr>
+      <tr>
+        <td>Sat  10.03.2018  12:30</td>
+        <td>A</td>
+        <td>Old Trafford</td>
+        <td>Man.United-Liverpool</td>
+        <td>:-:</td>
+      </tr>
+      <tr>
+        <td>Sat  17.03.2018  17:30</td>
+        <td>H</td>
+        <td>Anfield</td>
+        <td>Liverpool-Watford</td>
+        <td>:-:</td>
+      </tr>
+    </tbody>
+  </table>
+                </div>
+               </div>
+             </div>
+         </div>
+      </div>
+    </div>
+</section>
+
+
+<section class="parallax parallax-2">
+</section>
+
+<section id="stadium" class="jumbotron">
+      <div class="container">
+        <h1>Anfield</h1>
+        <p>
+          <div class="row">
+             
+             <div class="col-sm-6">
+               <div class="item">
+                 <div class="text">
+                  Anfield is a football stadium in Anfield, Liverpool, England which has a seating capacity of 54,074 making it the sixth largest football stadium in England.It has been the home of Liverpool F.C. since their formation in 1892. It was originally the home of Everton F.C. from 1884 to 1891, before they moved to Goodison Park after a dispute with the club president.
+                  Construction for an extension to the Main Stand began on 8 December 2014.This extension increased the stadium capacity to 54,074, making it one of the largest all-seater single stands in European football.There are future plans to expand the Anfield Road Stand which would bring the stadium size to around 59,000.
+                 </div>
+               </div>
+             </div>
+            
+<div class="col-sm-6">
+  <div class="item">
+    <div class="container-fluid">
+      <div id="carouselstadium" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+         <li data-target="#carouselstadium" data-slide-to="0" class="active"></li>
+         <li data-target="#carouselstadium" data-slide-to="1"></li>
+         <li data-target="#carouselstadium" data-slide-to="2"></li>
+         <li data-target="#carouselstadium" data-slide-to="3"></li>
+         <li data-target="#carouselstadium" data-slide-to="4"></li>
+         <li data-target="#carouselstadium" data-slide-to="5"></li>
+         <li data-target="#carouselstadium" data-slide-to="6"></li>
+         <li data-target="#carouselstadium" data-slide-to="7"></li>
+        </ol>
+
+    <div id="slide" class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/anfield1.jpg" alt="">
+        <div class="carousel-caption"></div>
+      </div>
+      <div class="item">
+        <img src="img/anfield2.jpg" alt="">
+        <div class="carousel-caption"></div>
+      </div>
+       <div class="item">
+        <img src="img/anfield3.jpg" alt="">
+        <div class="carousel-caption"></div>
+      </div>
+      <div class="item">
+        <img src="img/anfield4.jpg" alt="">
+        <div class="carousel-caption"></div>
+      </div>
+      <div class="item">
+        <img src="img/anfield5.jpg" alt="">
+        <div class="carousel-caption"></div>
+      </div>
+      <div class="item">
+        <img src="img/anfield6.jpg" alt="">
+        <div class="carousel-caption"></div>
+      </div>
+      <div class="item">
+        <img src="img/anfield7.jpg" alt="">
+        <div class="carousel-caption"></div>
+      </div>
+      <div class="item">
+        <img src="img/anfield8.jpg" alt="">
+        <div class="carousel-caption"></div>
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#carouselstadium" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+
+    <a class="right carousel-control" href="#carouselstadium" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+        </div>
+      </div>
+      
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="parallax parallax-3">
+      
+      
+</section>
+
+<section id="tickets" class="jumbotron">
+  <div class="container">
+        <h1>Tickets</h1>
+        <p>
+          <div class="row">
+             
+             <div class="col-sm-6">
+               <div class="item">
+                 <img src="img/ticketprice.jpg" alt="">
+               </div>
+             </div>
+             <div class="col-sm-6">
+               <div class="item">
+                 <div class="table-responsive">
+                  <table class="table table-bordered table-striped" >
+    <thead>
+      <tr>
+        <th>Sectors</th>
+        <th>Adult</th>
+        <th>Over 65</th>
+        <th>Junior</th>
+        <th>Young Adult</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Main Stand</td>
+        <td>59£</td>
+        <td>44£</td>
+        <td>9£</td>
+        <td>29.50£</td>
+      </tr>
+      <tr>
+        <td>Anfield Road</td>
+        <td>48£</td>
+        <td>36£</td>
+        <td>9£</td>
+        <td>24£</td>
+      </tr>
+      <tr>
+        <td>KOP</td>
+        <td>43£</td>
+        <td>32£</td>
+        <td>9£</td>
+        <td>21.50£</td>
+      </tr>
+      <tr>
+        <td>Main Stand Upper</td>
+        <td>9£</td>
+        <td>9£</td>
+        <td>9£</td>
+        <td>9£</td>
+      </tr>
+    </tbody>
+  </table>
+                </div>
+               </div>
+             </div>
+             
+    </div>
+  </div>
+</section>
+
+<section class="parallax parallax-5">
+      
+      
+</section>
+
+<section id="register" class="jumbotron">
+  <div class="container">
+   <h1>Enter your detailes</h1>
+    <div class="row">
+     <div class="col-sm-6">
+        <form class="form-horizontal" role="form" onsubmit="return checkForm();" >
+          <div class="form-group" id="emailGroup" >
+          
+          <label for="contactName">Name</label>
+          <input type="text" class="form-control" id="contactName" placeholder="Name">
+          <p id="errorName" class='hide'><span>Please enter your Name</span></p>
+
+         
+          <label for="contactSurname">Surname</label>
+          <input type="text" class="form-control" id="contactSurname" placeholder="Surname">
+          <p id="errorSurname" class='hide'><span>Please enter your Surname</span></p>
+         
+         
+          <label for="contactEmail">E-mail</label>
+          <input type="text" class="form-control" id="contactEmail" placeholder="E-mail">
+          <span id="emailGlyph" class="glyphicon form-control-feedback"></span>
+          <p id="errorEmail" class='hide'><span>Please enter your Email</span></p>
+         
+         
+          <label for="confcontEmail">Confirm e-mail</label>
+          <input type="text" class="form-control" id="confcontEmail" placeholder="Confirm e-mail">
+          <span id="emailGlyph" class="glyphicon form-control-feedback"></span>
+          <p id="errorconfcontEmail" class='hide'><span>Confirm your email</span></p>
+         
+         
+           <label for="password">Password</label>
+           <input type="password" class="form-control" id="password" placeholder="Password">
+           <p id="errorpassword" class='hide'><span>Enter your password</span></p>
+          
+          
+           <label for="confPassword">Confirm password</label>
+           <input type="password" class="form-control" id="confPassword" placeholder="Confirm password"/>
+           <p id="errorconfPassword" class='hide'><span>Confirm your password</span></p>
+          
+          <button type="submit" class="btn btn-default btn-lg" >Register</button> 
+          
+          <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#login">Log in</button>
+        </div>
+       </form>
+  </div>
+             
+          
+ 
+ <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Your email and password:</h4> 
+        </div>
+        
+        <div class="modal-body">
+          
+          <div class="container">
+        
+          <div class="row">
+             
+             <div class="col-sm-6">
+               <div class="item">
+                 <div class="form-group">
+                  <label for="exampleInputPassword1">E-mail</label>
+                  <input type="email" class="form-control" id="exampleInputPassword1" placeholder="E-mail">
+                </div>
+               </div>
+             </div>
+             <div class="col-sm-6">
+               <div class="item">
+                 <div class="form-group">
+                  <label for="exampleInputEmail1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputEmail1" placeholder="Password"/>
+                 </div>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Login</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+        
+       
+      </div>
+     </div>
+ </section>
+
+ <footer>
+      <div class="container">
+        <button type="button" class="btn btn-link btn-lg" data-toggle="modal" data-target="#myModal">
+          Privacy Policy
+        </button>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Modal title</h4> 
+        </div>
+        
+        <div class="modal-body">
+          ...
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/parallax-scroll.js"></script>
+  </body>
+</html>
